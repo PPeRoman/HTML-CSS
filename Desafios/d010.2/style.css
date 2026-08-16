@@ -52,18 +52,23 @@ header a {
     font-weight: bold;
 }
 
-header a:hover {
+header > p {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 1.1em;
+    color: white;
+}
+
+nav {
+    padding-bottom: -20px;
+    margin-bottom: -20px;
+    font-weight: bolder;
+}
+
+nav a:hover {
     background-color: var(--cor3);
     text-decoration: underline;
     transition: 0.5s;
-}
-
-header > p.descricao {
-    text-align: center;
-    margin-top: -20px;
-    font-size: 1.1em;
-    color: white;
-
 }
 
 main {

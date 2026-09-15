@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .frame {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+
+        .image-frame {
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça sua escolha</h1>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas qui ab modi temporibus nulla illum explicabo mollitia sit, magnam ullam nemo quod veritatis laudantium, exercitationem asperiores. Neque fugit consectetur dolorem.
+    </p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, animi architecto alias vero provident quisquam eligendi explicabo fugit soluta laboriosam numquam harum? Pariatur in porro ab ex alias repellat quae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime animi id sapiente molestiae deleniti. Fugiat maiores reiciendis dignissimos magni facilis dolorum. Rem quia eveniet autem, soluta placeat dolore nisi in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum laudantium, aut asperiores natus, minima aspernatur itaque quis voluptate porro cumque, reprehenderit ipsam dolorum eveniet! Corrupti ipsam unde dicta expedita consequuntur.
+    </p>
+
+    <iframe srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In perspiciatis consequatur accusantium praesentium magni eligendi dolor enim esse quaerat porro, sed facere modi amet at? Praesentium, voluptas? Praesentium, repellat sint?</p><img src='imagens/astronauta.png' class='image-frame'>" class="frame" name="frame">
+        <p class="error">
+            Infelismente seu navegador não é compatível com isso.
+        </p>
+    </iframe>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus tempora quae aliquam ad eaque molestias ratione, nostrum itaque sequi, illum odio enim repellendus delectus fuga in, omnis at distinctio autem! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam aut perspiciatis animi delectus recusandae porro sed veritatis maxime, voluptate nostrum amet inventore ullam aspernatur beatae non veniam cumque laborum suscipit.
+    </p>
+</body>
+</html>
